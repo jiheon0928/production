@@ -1,0 +1,31 @@
+.card {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  display: block;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.pic {
+  font-size: x-large;
+  font-weight: 800;
+  color: palevioletred;
+}
+
+.price {
+  font-weight: 800;
+  font-size: x-large;
+}
+
+.m {
+  font-size: small;
+  font-weight: 500;
+  color: gray;
+}
+.detail {
+  width: 100%;
+  font-size: small;
+}

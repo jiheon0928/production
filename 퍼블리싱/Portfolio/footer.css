@@ -1,0 +1,13 @@
+.header {
+  width: 100vw;
+  display: flex;
+}
+
+.lesserafim {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid red;
+}

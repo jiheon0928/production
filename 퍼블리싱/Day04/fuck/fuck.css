@@ -1,0 +1,70 @@
+.box {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+}
+
+.title {
+  font-size: 30px;
+  margin: 30px 30px 30px 50px;
+}
+.box2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.img1 {
+  background-image: url(img1.jpg);
+}
+
+.img2 {
+  background-image: url(img2.jpg);
+}
+
+.img3 {
+  background-image: url(img3.jpg);
+}
+
+.img4 {
+  background-image: url(img4.jpg);
+}
+
+.img5 {
+  background-image: url(img5.jpg);
+}
+
+.card {
+  background-size: cover;
+  width: 250px;
+  height: 380px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+.sub {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.tex {
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  margin: 230px 0 0 15px;
+}
+
+.time {
+  color: black;
+  width: 90%;
+  height: 60px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-items: center;
+  text-align: center;
+}

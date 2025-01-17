@@ -1,0 +1,63 @@
+.car_kategorie_list {
+  width: 280px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.img > img {
+  width: 300px;
+}
+
+.car_type {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.car_package {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.black {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.gray {
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 20px;
+  border-top: 1px solid black;
+}
+
+.option_n1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sell {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.gogo {
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+.butten {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}

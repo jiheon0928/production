@@ -1,0 +1,58 @@
+.background {
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 40px;
+  margin: 30px;
+}
+
+.img1 {
+  background-image: url(img1.jpeg);
+}
+
+.img2 {
+  background-image: url(img2.jpg);
+}
+
+.img3 {
+  background-image: url(img3.jpeg);
+}
+
+.card {
+  width: 30%;
+  height: 70%;
+  border-radius: 10%;
+  display: inline-block;
+  margin-left: 20px;
+  background-size: cover;
+}
+
+.pill {
+  border: 1px solid orange;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: transparent;
+  line-height: 30px;
+  margin: 120px 30px 20px 30px;
+  color: orange;
+  font-weight: 700;
+}
+
+.sub {
+  color: white;
+  font-size: 40px;
+  margin: 0px 30px;
+  line-height: 50px;
+}
+
+.go {
+  color: gray;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 50px 30px;
+}

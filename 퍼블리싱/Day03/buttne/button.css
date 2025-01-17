@@ -1,0 +1,26 @@
+.blueButton {
+  color: white;
+  background-color: skyblue;
+}
+
+.chip {
+  border: none;
+  border-radius: 3px;
+}
+
+.PillButton {
+  border: none;
+  border-radius: 30px;
+}
+
+.smaallButton {
+  padding: 5px 10px 5px 10px;
+}
+
+.MiddelButton {
+  padding: 5px 20px 5px 20px;
+}
+
+.largeButton {
+  padding: 5px 55px 5px 55px;
+}

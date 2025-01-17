@@ -1,0 +1,8 @@
+.bluebox {
+  padding: 20px 10px 20px 40px;
+  background-color: blue;
+  color: white;
+  width: 300px;
+  border-radius: 40px;
+  word-spacing: 200px;
+}

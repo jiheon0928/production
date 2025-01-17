@@ -1,0 +1,27 @@
+.list {
+  width: 300px;
+  overflow: scroll;
+}
+
+.box {
+  width: 500px;
+  display: flex;
+  gap: 20px;
+  background-color: pink;
+}
+
+.kategorie {
+  background-color: #6e6e6e;
+  width: 80px;
+  height: 45px;
+  font-size: 13px;
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}

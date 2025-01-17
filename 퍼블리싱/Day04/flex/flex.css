@@ -1,0 +1,38 @@
+.container {
+  width: 1000px;
+  height: 700px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  /*주축 기준으로 정렬해줌*/
+  justify-content: center;
+
+  /*교차축 기준으로 정렬해줌*/
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}

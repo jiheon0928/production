@@ -1,0 +1,25 @@
+.statistics {
+  width: 100vw;
+  height: 45vh;
+  background: linear-gradient(
+    121deg,
+    rgba(238, 238, 238, 1) 70%,
+    rgba(112, 184, 255, 1) 70%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.statistics > div {
+  color: gray;
+}
+
+.statistics > div > span {
+  color: #70b8ff;
+}

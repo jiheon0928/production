@@ -1,0 +1,84 @@
+header {
+  width: 330px;
+  max-width: 300px;
+  background-color: #eeeeee;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 50px;
+
+  position: relative;
+
+  gap: 40px;
+}
+
+header > figure > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 9999px;
+  box-shadow: 10px 10px 20px #70b8ff;
+}
+
+header > figcaption {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+header > .insta {
+  font-size: 15px;
+  color: gray;
+}
+
+header > button {
+  border: none;
+  border-radius: 15px;
+  padding: 8px 40px;
+  background-color: #70b8ff;
+  box-shadow: 7px 7px 15px #70b8ff;
+}
+
+.colorbox {
+  display: flex;
+  gap: 30px;
+}
+.colorbox > .box {
+  width: 30px;
+  height: 30px;
+  border-radius: 9999px;
+}
+
+.colorlist1 {
+  background-color: #0090ff;
+  box-shadow: 5px 5px 10px #0090ff;
+}
+
+.colorlist2 {
+  background-color: #1fd8a4;
+  box-shadow: 5px 5px 10px #1fd8a4;
+}
+
+.colorlist3 {
+  background-color: #ff92ad;
+  box-shadow: 5px 5px 10px #ff92ad;
+}
+
+.colorlist4 {
+  background-color: #b1a9ff;
+  box-shadow: 5px 5px 10px #b1a9ff;
+}
+
+.bar {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 25px;
+}
+
+.paper {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 25px;
+}

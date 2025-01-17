@@ -1,0 +1,67 @@
+.full {
+  margin: 30px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  background-image: url(hotel.jpg);
+  background-size: cover;
+  border-radius: 5%;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.card2 {
+  width: 300px;
+  height: 400px;
+  background-image: url(hohel2.jpg);
+  background-size: cover;
+  border-radius: 5%;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.card3 {
+  width: 300px;
+  height: 400px;
+  background-image: url(hotel3.jpg);
+  background-size: cover;
+  border-radius: 5%;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.card4 {
+  width: 300px;
+  height: 400px;
+  background-image: url(hotel4.jpg);
+  background-size: cover;
+  border-radius: 5%;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.black {
+  color: white;
+  margin-left: 10px;
+  font-size: small;
+  text-decoration-line: underline;
+  text-underline-offset: 7px;
+  line-height: 40px;
+}
+
+.busan {
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+  margin-left: 10px;
+  line-height: 40px;
+}
+
+.period {
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  line-height: 40px;
+}

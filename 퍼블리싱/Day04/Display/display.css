@@ -1,0 +1,14 @@
+.block {
+  background-color: red;
+}
+
+.inline {
+  background-color: blue;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  display: inline-block;
+}

@@ -1,0 +1,53 @@
+.Background {
+  width: 1000px;
+  height: 230px;
+  margin: auto;
+  border: 1px solid rebeccapurple;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.roundcard {
+  background-color: aqua;
+  width: 150px;
+  height: 150px;
+  border-radius: 9999px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.img {
+  font-size: 35px;
+  padding-top: 20px;
+}
+
+.rcn {
+  font-size: 13px;
+  padding-top: 30px;
+}
+
+.kategorie {
+  width: 1000px;
+  height: 300px;
+  border: 2px solid red;
+  margin: auto;
+}
+
+.cardlist {
+  width: 200px;
+  height: 180px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.Bcolor1 {
+  background-color: plum;
+}
+
+.white {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 9999px;
+}

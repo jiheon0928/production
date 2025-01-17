@@ -1,0 +1,26 @@
+.b1 {
+  color: white;
+  border: 2px none black;
+  border-radius: 20px;
+  background-color: black;
+  padding: 7px 10px 7px 10px;
+  font-weight: 400;
+}
+
+.b2 {
+  color: gray;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-weight: 600;
+  padding: 7px 10px 7px 10px;
+}
+
+.b3 {
+  color: gray;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-weight: 600;
+  padding: 7px 10px 7px 10px;
+}

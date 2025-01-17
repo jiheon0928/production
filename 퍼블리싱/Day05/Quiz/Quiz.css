@@ -1,0 +1,27 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10px;
+  gap: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img {
+  font-size: 60px;
+}
+
+.Ybox {
+  background-color: #ffca16;
+  padding: 20px 35px;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 900;
+  border: 10px;
+}

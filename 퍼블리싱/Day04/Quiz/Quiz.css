@@ -1,0 +1,103 @@
+.back {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.pink {
+  background-color: pink;
+}
+.gray {
+  background-color: gray;
+}
+.white {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
+.orange {
+  background-color: orange;
+}
+.c1 {
+  background-color: antiquewhite;
+}
+
+.c2 {
+  background-color: gold;
+}
+.c3 {
+  background-color: hotpink;
+}
+
+.c4 {
+  background-color: royalblue;
+}
+.c5 {
+  background-color: brown;
+}
+
+.c6 {
+  background-color: teal;
+}
+
+.c7 {
+  background-color: aqua;
+}
+
+.c8 {
+  background-color: yellowgreen;
+}
+.c9 {
+  background-color: thistle;
+}
+.c10 {
+  background-color: indigo;
+}
+.c11 {
+  background-color: olive;
+}
+
+.c12 {
+  background-color: peru;
+}
+.c13 {
+  background-color: tomato;
+}
+.c14 {
+  background-color: honeydew;
+}
+.c15 {
+  background-color: khaki;
+}
+.c16 {
+  background-color: salmon;
+}
+
+.c17 {
+  background-color: blueviolet;
+}
+
+.mini {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+}

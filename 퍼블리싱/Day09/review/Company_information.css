@@ -1,0 +1,45 @@
+.Company_information {
+  width: 100vw;
+  height: 40vh;
+  background-color: #484848;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.maxbox_02 {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.footer_Icon {
+  font-size: 25px;
+  word-spacing: 15px;
+}
+
+.footer_link {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.company_info {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.company_info_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
+}

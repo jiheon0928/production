@@ -1,0 +1,39 @@
+.CardPage {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pagebox {
+  width: 100%;
+  max-width: 1000px;
+  border: 1px solid red;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardbox {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.img {
+  width: 200px;
+  height: 120px;
+  background-position: 50% 50%;
+  background-image: url(../Day08/pau-sayrol-RQTn0zxfGbM-unsplash.jpg);
+}
+
+.cardbox > figcaption {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.cardbox > p {
+  font-size: 15px;
+  color: gray;
+  margin-top: 40px;
+}

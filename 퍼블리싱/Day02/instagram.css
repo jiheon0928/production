@@ -1,0 +1,32 @@
+.div {
+  width: 300px;
+  height: 50px;
+  background-color: white;
+}
+
+.butten {
+  align-items: center;
+  font-size: larger;
+  background-color: white;
+  border: none;
+}
+
+.butten2 {
+  background-color: white;
+  border: none;
+  float: right;
+}
+
+.pic {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.div2 {
+  width: 50px;
+  font-size: x-small;
+  text-align: center;
+  float: inline-start;
+}

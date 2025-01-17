@@ -1,0 +1,30 @@
+header > nav {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+header > nav > h2 {
+  font-size: 30px;
+}
+
+header > nav > .list {
+  display: flex;
+  flex-direction: row;
+  font-size: 17px;
+  gap: 20px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+header > nav > .Icon {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  gap: 20px;
+  font-weight: 700;
+  line-height: 40px;
+}

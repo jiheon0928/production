@@ -1,0 +1,37 @@
+.adPage {
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adPage_maxbox {
+  width: 100vw;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxsize {
+  width: 100%;
+}
+
+.adPage_img > img {
+  width: 100%;
+}
+
+.adPage_title {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #0f2e22;
+  font-weight: 600;
+}
+
+.adPage_explanation {
+  font-size: 18px;
+  color: #b4b4b4;
+  font-weight: 550;
+  line-height: 30px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,35 @@
+.wall {
+  display: block;
+  margin: auto;
+  background-color: grey;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.img {
+  width: inherit;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.t1 {
+  padding: 10px;
+  text-align: left;
+}
+
+.t2 {
+  padding: 10px;
+  text-align: left;
+  font-weight: 100;
+}

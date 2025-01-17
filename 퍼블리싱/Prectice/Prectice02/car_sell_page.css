@@ -1,0 +1,18 @@
+.car_sell_page {
+  padding: 100px;
+}
+
+.car_img_link {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  max-width: 1400px;
+
+  align-items: center;
+  padding: 200px 0;
+  gap: 10px;
+}
+
+.car_img > img {
+  width: 1000px;
+}

@@ -1,0 +1,27 @@
+.box {
+  height: 200px;
+}
+.back {
+  display: flex;
+  flex-direction: column;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.gray {
+  background-color: gray;
+}
