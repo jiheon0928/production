@@ -1,0 +1,30 @@
+.MainPage {
+  width: 100vw;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.MainPage > section {
+  width: 100%;
+  background-color: #c2e6ff;
+  display: flex;
+  align-items: center;
+  padding: 20px 100px;
+  justify-content: space-between;
+}
+
+.MainPage_Hero_img > img {
+  width: 400px;
+  height: 400px;
+}
+
+.MainPage_Hero {
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.MainPage_explanation {
+  font-weight: 800;
+}

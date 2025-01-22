@@ -1,0 +1,40 @@
+.header {
+  width: 100vw;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px 0;
+}
+.header > section {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > section > strong {
+  font-size: 23px;
+}
+
+.header > section > ul {
+  display: flex;
+  gap: 30px;
+}
+
+.header > section > ul > li {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.change_english {
+  background-color: white;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.mobile_bar {
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  display: none;
+}

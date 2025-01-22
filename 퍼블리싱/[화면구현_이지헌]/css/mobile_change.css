@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px) {
+  .header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+  }
+  .header > section {
+    width: 100vw;
+    max-width: 368px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .kategorie_list > li {
+    display: none;
+  }
+  .change_english {
+    display: none;
+  }
+  .mobile_bar {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .MainPage > section {
+    flex-direction: column;
+    height: 100vh;
+    padding: 100px 120px;
+  }
+  .MainPage_Hero_img > img {
+    width: 320px;
+    height: 320px;
+  }
+}
