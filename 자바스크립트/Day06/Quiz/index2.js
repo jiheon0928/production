@@ -1,4 +1,4 @@
-const deta = [
+const data = [
   {
     name: "Adlai Swalowe",
     langauage: "Tamil",
@@ -5000,22 +5000,12 @@ const deta = [
     creditcard: "201582708681493",
   },
 ];
-
-console.log(
-  deta.filter(
-    (x) => x.currency.includes("Euro") || x.currency.includes("Dollar")
-  )
-);
-
-const aaa = deta.filter((xx) => xx.jobTitle.includes("Engineer"));
-const { jopTitle, currency, money, creditcard, department, ...rest } = aaa;
-console.log(rest);
-
-// name: "Adlai Swalowe",
-// langauage: "Tamil",
-// jobTitle: "VP Quality Control",
-// department: "Human Resources",
-// email: "aswalowe0@blogtalkradio.com",
-// currency: "Euro",
-// money: "$3.63",
-// creditcard: "5602245200252544",
+const isEngineer = data
+  .filter((x) => x.jobTitle.includes("Engineer"))
+  .map((x) => ({
+    name: x.name,
+    language: x.language,
+    department: x.department,
+    email: x.email,
+  }));
+console.log(isEngineer);
